@@ -1910,6 +1910,7 @@ Info_page_eq(VALUE self, VALUE page_arg)
 }
 
 DEF_ATTR_ACCESSOR(Info, pointsize, dbl)
+DEF_ATTR_ACCESSOR(Info, interline_spacing, dbl)
 DEF_ATTR_ACCESSOR(Info, quality, ulong)
 
 /**
